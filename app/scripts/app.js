@@ -4,7 +4,8 @@ angular.module('itemsApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'windowsAzure'
 ])
   .config(function ($routeProvider) {
     $routeProvider

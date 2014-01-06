@@ -1,10 +1,13 @@
 'use strict';
 
-angular.module('itemsApp', ['windowsAzure'])
-  .controller('MainCtrl', function ($scope, mobileServiceClientService) {
+angular.module('itemsApp')
+  .controller('MainCtrl', function ($scope, mobileServiceClient) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'
     ];
+
+        
+
   });
